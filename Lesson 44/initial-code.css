@@ -1,0 +1,33 @@
+/* Design Options */
+
+/* Style 1 */
+
+.mv-slider.style-1 .slider-details-container .link{
+    background-color: #1d4671;
+}
+
+.mv-slider.style-1 .flex-control-paging li a.flex-active {
+    background: rgb(182, 2, 2) !important;
+}
+
+.mv-slider.style-1 .flex-control-paging li a {
+    background: rgb(247, 247, 247);
+}
+
+/* Style 2 */
+
+.mv-slider.style-2 .slider-details-container .link{
+    background-color: #71481d;
+}
+
+.mv-slider.style-2 .flex-control-paging li a.flex-active {
+    background: rgb(2, 182, 14) !important;
+    width: 25px;
+}
+
+.mv-slider.style-2 .flex-control-paging li a {
+    background: rgb(247, 247, 247);
+    height: 10px;
+    width: 15px;
+    border-radius: 0;
+}
